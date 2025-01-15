@@ -5,6 +5,7 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
+
 from keras.models import load_model
 model = load_model('model2.h5')
 import json
